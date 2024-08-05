@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="converter">
+<h1>Конвертер валют</h1>
+<input type="number" name="usd">
+<select name="choice" id="" onchange="convert()">
+<option value="rub">Рубли</option>
+<option value="sum">Сумы</option>
+<option value="eu">Евро</option>
+</select>
+<input type="text" name="result" readonly>
+</div>
+<section>
+    < class="dynamickForm">
+</label>
+<h1>Оставить заявку</h1>
+<label for="">
+    Имя:
+  
+</label>
+<label for="">
+    Страна:
+    <select name="country" id="countrySelect">oninput="codeCountry()"
+        <option value="none">Выберите страну</option>
+        <option value="uz">Узбекистан</option>
+        <option value="ru">Россия</option>
+        <option value="usa">Usa</option>
+    </select>
+</label>
+  <label for="">
+    Номер тел:    
+    <input type="text" name="phone"
+</label>
+<label for="check">
+    <input type="checkbox" name="check" id="check">
+    Подтвердите обработку данных
+</label>
+<input type="button" value="Отправить" onclick="codeCountry()">
+        <h1>Калькулятор стоимости обучения</h1>
+        <label for="">
+            Курс:
+            <select name="" id="course"oninput="corseForm()">
+                <option value="none">Выберите курс</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Python">Python</option>
+                <option value="Data">Data Аналитик</option>
+            </select>
+        </label>
+        <label class="range" for="">
+            Скидка:
+            <input type="range" min="0" max="50" step="5">
+            <span>0%</span>
+        </label>
+        <label for="">
+            Сумма:
+            <input id="totalPrice" type="text" readonly> 
+        </label>   
+    </div>    
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>

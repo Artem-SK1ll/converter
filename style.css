@@ -1,0 +1,11 @@
+section div{
+    margin: 100px auto;
+    background-color:aqua;
+    width: 500px;
+    color: red;
+    padding: 30px;
+    border-radius: 20px;
+}
+.range input, .range span{
+    display: inline;
+}
